@@ -1,0 +1,70 @@
+.css-selector-tool{
+  width: 500px;
+  height: auto;
+  display: none;
+  position: absolute;
+  background-color: black;
+  z-index: 100000;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid gray
+}
+
+.css-selector-tool .css-selector-header, .css-selector-content {
+  padding: 16px;
+}
+
+.css-selector-tool .close-btn {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.css-selector-tool .close-btn button {
+  padding: 8px;
+  background-color: coral;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.css-selector-tool .css-selector-header button {
+  padding: 8px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.css-selector-tool .css-selector-content {
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: gray;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 16px;
+
+}
+
+.css-selector-tool .css-selector-content select {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  height: 40px;
+}
+
+.css-selector-tool .css-selector-content .css-selector-value {
+  padding-left: 8px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.css-selector-tool .css-selector-content .css-selector-value span{
+  color: white;
+}
